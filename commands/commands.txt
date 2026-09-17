@@ -1,0 +1,394 @@
+    1  ls
+    2  cd
+    3  whoami
+    4  ls
+    5  clear
+    6  whoami
+    7  /
+    8  pwd
+    9  ls
+   10  uname
+   11  uname -r
+   12  history
+   13  date
+   14  date YYYY/MM/DD
+   15  date yyyymmdd
+   16  date -help
+   17  date D
+   18  date -D
+   19  date %D
+   20  mkdir DevOps
+   21  ls -l
+   22  ls
+   23  mkdir vikash dev test prod
+   24  ls
+   25  ls -l
+   26  mkdir /Student{1,2,3,4,5,6,7,8,9}
+   27  mkdir Student{1,5}
+   28  ls
+   29  ls -l
+   30  touch notes
+   31  ls -l
+   32  cp -rvf notes /prod
+   33  rm Student1 Student5 dev prod test vikash
+   34  rm -r Student1 Student5 dev prod test vikash
+   35  ls -l
+   36  mv notes notes.txt
+   37  ls -l
+   38  vim notes.txt 
+   39  cat notes.txt 
+   40  cleare
+   41  clear
+   42  useradd shub
+   43  grep vikash/etc/passwd
+   44  cd..
+   45  cd ..
+   46  ls -l
+   47  cd etc
+   48  ls -l
+   49  cd passwd
+   50  cd /passwd
+   51  cat passwd
+   52  cd
+   53  whioami
+   54  whoami
+   55  pwd
+   56  useradd shub
+   57  sudo useradd shubh
+   58  grep shubh/etc/passwd
+   59  cd .. ..
+   60  4cd ..
+   61  cd ..
+   62  ls
+   63  cd etc
+   64  cat passwd
+   65  cd
+   66  sh shubh
+   67  userdl shubh
+   68  sudo userdl shubh
+   69  sudo deluser shubh
+   70  clear
+   71  free -h
+   72  echo "Helllo world"
+   73  pwd
+   74  clear
+   75  pwd
+   76  whoami
+   77  tree
+   78  ls -l
+   79  rm -r DevOps/
+   80  rm notes.txt 
+   81  ls -l
+   82  mkdir DevOps
+   83  ls -l
+   84  touch my-file.txt
+   85  ls -l
+   86  cd DevOps/
+   87  ls
+   88  ls -l
+   89  touch intro.txt
+   90  pwd
+   91  ls
+   92  cd ..
+   93  pwd
+   94  cd ..
+   95  pwd
+   96  cd ..
+   97  pwd
+   98  ls
+   99  ls -l
+  100  cd var
+  101  ls -l
+  102  cd ..
+  103  cd temp
+  104  cd tmp
+  105  ls -l
+  106  cd ..
+  107  la
+  108  cd mnt
+  109  ls
+  110  ls -l
+  111  cd ..
+  112  cd sbin
+  113  ls -l
+  114  ls
+  115  cat tc
+  116  61;4;6;7;14;21;22;23;24;28;32;42;52c
+  117  cd ..
+  118  ls
+  119  cd root
+  120  cd etc
+  121  ls
+  122  cd ..
+  123  ls
+  124  cd boot
+  125  ls
+  126  ls -l
+  127  cd ..
+  128  ls
+  129  cd bin
+  130  ls -l
+  131  cat ls
+  132  man sad
+  133  man ls
+  134  sostname
+  135  hostname
+  136  cd
+  137  clear
+  138  ls -l
+  139  mv my-file.txt DevOps/
+  140  ls
+  141  cd DevOps/
+  142  ls
+  143  cd
+  144  ls
+  145  touch demo.txt
+  146  ls
+  147  cp demo.txt DevOps/
+  148  ls
+  149  cd DevOps/
+  150  ls
+  151  rm demo.txt 
+  152  ls
+  153  ls -l
+  154  cd
+  155  mkdir demo
+  156  ls
+  157  rm -r demo
+  158  rm demo.txt 
+  159  ls
+  160  touch new.txt
+  161  rm new.txt 
+  162  ls
+  163  touch new.txt
+  164  rm -v new.txt 
+  165  clear
+  166  ls
+  167  vim
+  168  vim commands.txt
+  169  cat commands.txt 
+  170  vim commands.txt 
+  171  cat commands.txt 
+  172  sudo apt-get update
+  173  sudo apt-get upgrade
+  174  clear
+  175  cat /etc/group
+  176  sudo apt-get insall nginx
+  177  sudo apt-get install nginx
+  178  systemctl status nginx
+  179  systemctl stop nginx
+  180  sudo systemctl stop nginx
+  181  clear
+  182  history
+  183  clear
+  184  systemctl status nginx
+  185  sudo systemctl start nginx
+  186  systemctl status nginx
+  187  clear
+  188  cd /var
+  189  ls
+  190  cd www
+  191  ls
+  192  cd html
+  193  ls
+  194  ls -l
+  195  vim index.html
+  196  sudo vim index.html
+  197  cd
+  198  whoami
+  199  cat /etc/passwd
+  200  clear
+  201  useradd -m babitaji
+  202  sudo useradd -m babitaji
+  203  cd /home
+  204  ls
+  205  sudo useradd iyer
+  206  ls
+  207  sudo useradd -m bhide
+  208  ls
+  209  sudo passwd babitaji
+  210  whoami
+  211  su babitaji
+  212  whoami
+  213  echo $SHELL
+  214  man useradd
+  215  sudo useradd -m tappu -s /bin/bash
+  216  sudo passwd tappu
+  217  su tappu
+  218  ls
+  219  pwd
+  220  ls
+  221  ls -l
+  222  ls -a
+  223  whoami
+  224  ls -l
+  225  sudo useradd -m tappu
+  226  cat /etc/passwd
+  227  cat /etc/group
+  228  groupadd devops
+  229  sudo groupadd devops
+  230  cat /etc/group
+  231  cat /etc/passwd
+  232  cat /etc/group
+  233  sudo groupadd tester
+  234  cat /etc/group
+  235  sudo gpasswd -M tappu,bhide devops 
+  236  cat /etc/group
+  237  sudo gpasswd -M vikash,babitaji tester 
+  238  cat /etc/group
+  239  sudo usermod -aG devops iyer
+  240  cat /etc/group
+  241  ls -l
+  242  man gpasswd
+  243  ls -ld
+  244  ls -ld devops
+  245  ls -ld /devops
+  246  chmod 400 commands.txt 
+  247  ls -l
+  248  sudo chown iyer commands.txt 
+  249  ls -l
+  250  sudo chgrp iyer commands.txt
+  251  ls -l
+  252  clear
+  253  mkdir logs
+  254  cd logs
+  255  cd /var
+  256  cd log
+  257  ls
+  258  cd nginx
+  259  ls
+  260  cat access.log 
+  261  cd 
+  262  ls
+  263  cd logs/
+  264  ls
+  265  vim application.log
+  266  vim app.log
+  267  ls
+  268  rm application.log 
+  269  ls
+  270  cat app.log
+  271  clear
+  272  ls
+  273  grep i "authentication failure" app.log
+  274  grep i "authentication failure;" app.log
+  275  grep i "authentication failure" app.log
+  276  grep -i "authentication failure" app.log
+  277  grep -i "authentication failure" app.log | head
+  278  grep -i "authentication failure" app.log | head -n 2
+  279  grep -i "authentication failure" app.log | tail -n 2
+  280  clear
+  281  grep -i "authentication failure" app.log | tail -n 5
+  282  awk '/application failure/ {print}' app.log
+  283  awk '{print}' app.log
+  284  clear
+  285  awk 'authentication failure {print}' app.log
+  286  awk '/authentication failure/ {print}' app.log
+  287  awk '/authentication failure/ {print$1}' app.log
+  288  awk '/authentication failure/ {print$1,$2}' app.log
+  289  awk '/authentication failure/ {print$1,$2,$3}' app.log
+  290  awk '/authentication failure/ {print$1,$2,$3,$4}' app.log
+  291  awk '/authentication failure/ {print$1,$2,$3,$4,$5,$6,$7,$8,$9}' app.log
+  292  awk '/authentication failure/ {print$1,$2,$3,$4,$12}' app.log
+  293  awk '/authentication failure/ {print$1,$2,$3,$4,$12,$13,$14,$15}' app.log
+  294  awk '/authentication failure/ {print$1,$2,$3,$4,$12,$13,$14,$15}' app.log | head -n 5
+  295  awk '/authentication failure/ {print $1,$2,$3,$4,$12,$13,$14,$15}' app.log
+  296  awk '($1="Jul") && ($2="11") /authentication failure/ {print $1,$2,$3,$4,$12,$13,$14,$15}' app.log
+  297  awk '/authentication failure/ {if ($1=="Jul") print $1,$2,$3,$4,$12,$13,$14,$15}' app.log
+  298  awk '/authentication failure/ {if ($1=="Jul" && $2== "11") print $1,$2,$3,$4,$12,$13,$14,$15}' app.log
+  299  git init
+  300  git commit -m "First commit"
+  301  vim hello_chatur.sh
+  302  echo $SHELL
+  303  vim hello_chatur.sh
+  304  ls -l
+  305  history
+  306  clear
+  307  ls -l
+  308  ./ hello_chatur.sh
+  309  ./hello_chatur.sh
+  310  ./hello_chatur.sh 
+  311  vim hello_chatur.sh
+  312  ls
+  313  ./hello_chatur.sh 
+  314  ls
+  315  cat farhanitrate.txt 
+  316  vim 3_idiots.sh
+  317  ./3_idiots.sh 
+  318  bash 3_idiots.sh 
+  319  vim 3_idiots.sh
+  320  bash 3_idiots.sh 
+  321  vim 3_idiots.sh
+  322  bash 3_idiots.sh 
+  323  vim 3_idiots.sh
+  324  bash 3_idiots.sh farhan raju ranchoo
+  325  vim 3_idiots.sh
+  326  bash 3_idiots.sh farhan raju ranchoo
+  327  vim 3_idiots.sh
+  328  bash 3_idiots.sh farhan raju ranchoo
+  329  vim 3_idiots.sh
+  330  bash 3_idiots.sh farhan raju ranchoo
+  331  vim create_user.sh
+  332  bash create_user.sh 
+  333  vim create_user.sh
+  334  bash create_user.sh 
+  335  vim create_user.sh
+  336  sudo userdel rancho
+  337  bash create_user.sh 
+  338  vim create_user.sh
+  339  bash create_user.sh 
+  340  vim create_user.sh
+  341  bash create_user.sh 
+  342  echo -e "hello\ndosto
+  343  echo -e "hello\ndosto"
+  344  echo -t "hello\ndosto"
+  345  echo -e "hello\tdosto"
+  346  vim create-user-args.sh
+  347  bash create-user-args.sh sia sia@123
+  348  vim create-user-args.sh
+  349  bash create-user-args.sh sia sia@123
+  350  vim create-user-args.sh
+  351  bash create-user-args.sh pia pia@123
+  352  cat /etc/passwd
+  353  sudo userdel babitaji
+  354  cat /etc/passwd
+  355  sudo userdel babitaji,iyer
+  356  sudo userdel iyer,bhide
+  357  sudo userdel iyer bhide
+  358  vim create-user-args.sh
+  359  bash create-user-args.sh pia pia@123
+  360  bash create-user-args.sh piaw piwa@123
+  361  cat /etc/passwd
+  362  sudo userdel sia
+  363  sudo userdel farhan
+  364  sudo userdel raju
+  365  sudo userdel tappu
+  366  sudo userdel bhide
+  367  sudo userdel iyer
+  368  cat /etc/passwd
+  369  vim install_package.sh
+  370  ./install_package.sh nginx
+  371  vim install_package.sh
+  372  ./install_package.sh docker.io
+  373  systemctl status docker
+  374  vim conditional_stm.sh
+  375  bash conditional_stm.sh 
+  376  vim conditional_stm.sh
+  377  bash conditional_stm.sh 
+  378  vim create_user.sh 
+  379  vim functions.sh
+  380  bash functions.sh 
+  381  vim functions.sh
+  382  bash functions.sh 
+  383  vim functions.sh
+  384  bash functions.sh 
+  385  /etc/passwd
+  386  sudo /etc/passwd
+  387  cat /etc/passwd
+  388  vim loops.sh
+  389  bash loops.sh 
+  390  vim loops.sh
+  391  mkdir backups
+  392  ls
+  393  history > commands/commands.txt 
+  394  history | uniq > commands/commands.txt 
