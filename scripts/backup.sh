@@ -11,6 +11,6 @@ dest=$2
 
 # timestamp=$(date '+%Y-%m-%d')
 
-zip -r "$dest/backup-$timestamp.zip" $src > /dev/null
+# zip -r "$dest/backup-$timestamp.zip" $src > /dev/null
 
 echo "Backup Done"
